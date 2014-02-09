@@ -1,7 +1,7 @@
 {
     "name": "igusev/yii2-jquery.scrollto",
     "description": "Yii 2 jQuery.scrollTo Extension",
-    "keywords": ["yii", "jquery", "jquery.scrollto"],
+    "keywords": ["yii2", "jquery", "jquery.scrollto"],
     "type": "yii2-extension",
     "license": "MIT",
     "homepage": "https://github.com/iGusev/yii2-jquery.scrollto",
