@@ -1,0 +1,43 @@
+{
+    "name": "igusev/yii2-jquery.scrollto",
+    "description": "Yii 2 jQuery.scrollTo Extension",
+    "keywords": ["yii", "jquery", "jquery.scrollto"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/iGusev/yii2-jquery.scrollto",
+    "support": {
+        "issues": "https://github.com/iGusev/yii2-jquery.scrollto/issues",
+        "source": "https://github.com/iGusev/yii2-jquery.scrollto"
+    },
+    "authors": [
+        {
+            "name": "Gusev Ilya",
+            "email": "mail@igusev.ru",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "jQuery.scrollTo/jQuery.scrollTo",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/flesler/jquery.scrollTo.git",
+                    "type": "git",
+                    "reference":"master"
+                },
+                "autoload": {
+                    "classmap": ["."]
+                }
+            }
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "jQuery.scrollTo/jQuery.scrollTo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "yii\\jQueryScrollTo\\": "" }
+    }
+}
